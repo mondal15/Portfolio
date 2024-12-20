@@ -4,12 +4,9 @@ function About() {
   return (
     <div name="About" className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16">
       <div>
-        {/* About Section */}
+
         <h1 className="text-3xl font-bold mb-5">About Me</h1>
-        <p>
-          Hello, I'm Esmile, a dedicated and versatile Developer passionate about designing and building efficient, scalable, and user-centric web applications. With expertise in modern web technologies and frameworks, I focus on creating seamless digital experiences and robust solutions that drive results.
-        </p>
-        <br />
+
 
         {/* Education Section */}
         <h1 className="text-green-600 font-semibold text-xl">Education & Training</h1>

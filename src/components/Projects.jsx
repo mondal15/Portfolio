@@ -3,19 +3,19 @@ import React from 'react'
 function Projects() {
     const projects = [
       {
-        name: "Budget App",
-        description: "A dynamic budget tracker built with React and Node.js.",
-        link: "https://github.com/esmilemondal/budget-app",
+        name: "Portfolio",
+        description: "A responsive personal website showcasing projects, skills, and contact details.",
+        link: "https://github.com/mondal15/Portfolio",
       },
       {
-        name: "Weather App",
-        description: "A weather forecasting app using OpenWeatherMap API.",
-        link: "https://github.com/esmilemondal/weather-app",
+        name: "Budget App",
+        description: "A dynamic budget tracker built with React and Node.js.",
+        link: "https://github.com/mondal15/Budget-App",
       },
       {
         name: "To-Do List",
         description: "A task management app using React with features like adding, deleting, and completing tasks.",
-        link: "https://github.com/esmilemondal/todo-app",
+        link: "https://github.com/mondal15/To-Do-List",
       },
     ];
   

@@ -14,7 +14,10 @@ import pic from "../../public/logo.png";
 function Home() {
   return (
     <>
-      <div name="Home" className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-20">
+      <div
+        name="Home"
+        className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-20"
+      >
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1">
             <span className="text-x">welcome in my feed</span>
@@ -31,10 +34,12 @@ function Home() {
             </div>
             <br />
             <p className="text-sm md:text-md text-justify">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima,
-              nam omnis voluptates placeat facere perspiciatis obcaecati ex ipsa
-              delectus natus reprehenderit consequatur? Deserunt, incidunt quam.
-              Perspiciatis esse quod quidem incidunt.
+              A motivated developer with a solid understanding of software
+              development concepts and various programming languages. I have
+              gained hands-on experience through projects and am eager to apply
+              my skills in creating efficient and scalable applications. Looking
+              for opportunities to learn, grow, and Contribute to impactful
+              projects.
             </p>
             {/* social media icons */}
             <div className="flex flex-col items-center md:flex-row justify-between space-y-6 md:space-x-0">
@@ -53,12 +58,12 @@ function Home() {
                   </li>
                   <li>
                     <a href="https://www.youtube.com/" target="_blank">
-                    <FaYoutube className="text-2xl cursor-pointer" />
+                      <FaYoutube className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                   <li>
-                  <a href="https://www.telegram.com/" target="_blank">
-                    <FaTelegram className="text-2xl cursor-pointer" />
+                    <a href="https://www.telegram.com/" target="_blank">
+                      <FaTelegram className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                 </ul>
